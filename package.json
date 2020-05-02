@@ -36,7 +36,8 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
     },
     "dependencies": {
-        "bootstrap": "4.4.1"
+        "bootstrap": "4.4.1",
+        "sass-google-fonts": "^1.0.1"
     },
     "devDependencies": {
         "autoprefixer": "9.7.6",
