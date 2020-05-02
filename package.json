@@ -1,6 +1,6 @@
 {
     "title": "Agency",
-    "name": "startbootstrap-agency",
+    "name": "website-lazr",
     "version": "6.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -36,7 +36,8 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
     },
     "dependencies": {
-        "bootstrap": "4.4.1"
+        "bootstrap": "4.4.1",
+        "startbootstrap-agency": "^6.0.0"
     },
     "devDependencies": {
         "autoprefixer": "9.7.6",
