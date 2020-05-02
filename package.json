@@ -1,6 +1,6 @@
 {
     "title": "Agency",
-    "name": "startbootstrap-agency",
+    "name": "lazr",
     "version": "6.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",

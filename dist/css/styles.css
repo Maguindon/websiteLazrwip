@@ -2,7 +2,7 @@
 /*!
 * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
 * Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/BlackrockDigital/lazr/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -10087,10 +10087,6 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
-.masthead {
-  height: 100vh;
-}
-
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;

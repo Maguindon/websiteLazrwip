@@ -1,7 +1,7 @@
 /*!
     * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
     * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+    * Licensed under MIT (https://github.com/BlackrockDigital/lazr/blob/master/LICENSE)
     */
     (function ($) {
     "use strict"; // Start of use strict
