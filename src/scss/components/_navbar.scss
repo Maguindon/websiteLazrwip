@@ -57,6 +57,7 @@
         }
         // Styling for when the navbar shrinks on larger screens
         &.navbar-shrink {
+            height: 5vh;;
             padding-top: 1rem;
             padding-bottom: 1rem;
             background-color: $gray-900;

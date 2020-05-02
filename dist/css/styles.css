@@ -10069,6 +10069,7 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
+    height: 5vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
@@ -10087,6 +10088,14 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+.masthead {
+  height: 100vh;
+}
+
+#mainButton {
+  margin-top: 75%;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -10396,6 +10405,14 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+#contact {
+  height: 75vh;
+}
+
+#clientSection {
+  height: 10vh;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
@@ -10451,6 +10468,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
+  height: 10vh;
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
