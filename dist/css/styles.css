@@ -10087,6 +10087,10 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
+.masthead {
+  height: 100vh;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
