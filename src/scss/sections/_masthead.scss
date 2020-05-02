@@ -4,7 +4,7 @@
 }
 
 #mainButton {
-    margin-top: 75%;
+    margin-top: 35%;
 }
 
 header.masthead {
@@ -17,19 +17,21 @@ header.masthead {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    
+    .masthead-heading {
+        margin-top: 30%;
+        font-size: 3.25rem;
+        font-weight: 700;
+        line-height: 3.25rem;
+        margin-bottom: 2rem;
+        font-family: $headings-font-family;
+    }
     .masthead-subheading {
         font-size: 1.5rem;
         font-style: italic;
         line-height: 1.5rem;
         margin-bottom: 25px;
         font-family: $subheadings-font-family;
-    }
-    .masthead-heading {
-        font-size: 3.25rem;
-        font-weight: 700;
-        line-height: 3.25rem;
-        margin-bottom: 2rem;
-        font-family: $headings-font-family;
     }
 }
 
