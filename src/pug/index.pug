@@ -10,10 +10,11 @@ html(lang='en')
 
         title lazr
 
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel='icon', type='image/x-icon', href='assets/img/logos/lazr-logo.png')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.12.1/js/all.js', crossorigin='anonymous')
+        //- script(src='https://use.fontawesome.com/releases/v5.12.1/js/all.js', crossorigin='anonymous')
+        script(src='https://kit.fontawesome.com/d54dfa917c.js' crossorigin='anonymous')
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
@@ -30,7 +31,7 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand.js-scroll-trigger(href='#page-top', id='logo-top')
-                    img(src='assets/img/navbar-logo.svg')
+                    img(src='assets/img/logos/lazr-logo-white.png', id='logo-top-img')
                     h2.section-heading lazr
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
@@ -50,9 +51,9 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-heading.text-uppercase lili-rose
-                .masthead-subheading.text-uppercase guindon
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(id='mainButton' href='#services') Tell Me More
+                .masthead-heading.text-uppercase Most advanced logistics platform
+                .masthead-subheading.text-uppercase 
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.justify-content-center.d-md-table.mx-auto(id='mainButton' href='#services') Tell Me More
 
         // Services
         section#services.page-section
@@ -64,22 +65,44 @@ html(lang='en')
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 E-Commerce
+                            i.fad.fa-truck.fa-stack-1x.fa-inverse
+                        h4.my-3 Over the road
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Responsive Design
+                            i.fad.fa-train.fa-stack-1x.fa-inverse
+                        h4.my-3 Inter-modal
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Web Security
+                            i.fad.fa-user-headset.fa-stack-1x.fa-inverse
+                        h4.my-3 Custom Logistics
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                .row.text-center
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fad.fa-space-station-moon.fa-stack-1x.fa-inverse
+                        h4.my-3 Specialized cargo
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fad.fa-user-chart.fa-stack-1x.fa-inverse
+                        h4.my-3 Data management
+                        p.text-muted
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                    .col-md-4
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fad.fa-file-import.fa-stack-1x.fa-inverse
+                        h4.my-3 Documentation
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
@@ -96,66 +119,66 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/01-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/dashboards.png', alt='Dashboards')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
+                                .portfolio-caption-heading Powerful Dashboards
+                                .portfolio-caption-subheading.text-muted By user type
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/02-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/team.png', alt='team')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Team based
+                                .portfolio-caption-subheading.text-muted collaboration
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/03-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/tracking.png', alt='tracking')
                             .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
+                                .portfolio-caption-heading Automated-tracking
+                                .portfolio-caption-subheading.text-muted locate your stuff
                     .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/04-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/totalcontrol.png', alt='shipment-list')
                             .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
+                                .portfolio-caption-heading shipment and quotes list
+                                .portfolio-caption-subheading.text-muted total control
                     .col-lg-4.col-sm-6.mb-4.mb-sm-0
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/05-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/addressbook.png', alt='addressbook')
                             .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
+                                .portfolio-caption-heading Address Book
+                                .portfolio-caption-subheading.text-muted Eliminate errors
                     .col-lg-4.col-sm-6
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
+                                img.img-fluid(src='assets/img/portfolio/actionnable.png', alt='actionnable')
                             .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                                .portfolio-caption-heading Actionnable items
+                                .portfolio-caption-subheading.text-muted Never miss a beat
 
-        // About
+        // About = HOW DOES IT WORK ?
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase About
+                    h2.section-heading.text-uppercase how does it work?
                     h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 ul.timeline
                     li

@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family: 'modulus';
+    src: url('websitelazr/src/assets/modulus_fonts/modulus-400.woff');
+    src: url('websitelazr/src/assets/modulus_fonts/modulus-400.woff2') format('woff');
+    }
+
+
 // Styling for the navbar
 #mainNav {
     padding-top: 1rem;
@@ -13,13 +21,14 @@
         border: 0;
     }
     .navbar-brand {
+        display: flex;
         color: $primary;
-        font-family: $headings-font-family;
-        font-weight: $headings-font-weight;
-        letter-spacing: $headings-letter-spacing;
-        text-transform: uppercase;
+        font-family: 'modulus';
+        color: white;
+        // font-weight: $headings-font-weight;
+        // letter-spacing: $headings-letter-spacing;
         img {
-            height: 1.5rem;
+            height: 2rem;
         }
     }
     .navbar-nav {

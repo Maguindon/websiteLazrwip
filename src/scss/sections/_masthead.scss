@@ -3,10 +3,6 @@
     height: 100vh;
 }
 
-#mainButton {
-    margin-top: 45%;
-}
-
 header.masthead {
     padding-top: 6rem + 4.5rem;
     padding-bottom: 6rem;
@@ -23,13 +19,13 @@ header.masthead {
         font-size: 3.25rem;
         font-weight: 700;
         line-height: 3.25rem;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
         font-family: $headings-font-family;
     }
     .masthead-subheading {
         font-size: 1.5rem;
         line-height: 1.5rem;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-family: $subheadings-font-family;
     }
 }
