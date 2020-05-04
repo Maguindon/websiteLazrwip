@@ -1,5 +1,6 @@
 // Styling for the timeline section
 .timeline {
+    background-image: url(./src/assets/img/about/1.jpg);
     position: relative;
     padding: 0;
     list-style: none;
@@ -26,6 +27,7 @@
             clear: both;
         }
         .timeline-panel {
+            
             position: relative;
             float: right;
             width: 100%;

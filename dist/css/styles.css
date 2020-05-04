@@ -10228,6 +10228,7 @@ header.masthead .masthead-subheading {
 }
 
 .timeline {
+  background-image: url(./src/assets/img/about/1.jpg);
   position: relative;
   padding: 0;
   list-style: none;
