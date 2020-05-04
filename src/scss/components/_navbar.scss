@@ -4,7 +4,7 @@
     src: url('websitelazr/src/assets/modulus_fonts/modulus-400.woff');
     src: url('websitelazr/src/assets/modulus_fonts/modulus-400.woff2') format('woff');
     }
-
+    
 
 // Styling for the navbar
 #mainNav {
@@ -21,7 +21,7 @@
         border: 0;
     }
     .navbar-brand {
-        display: flex;
+        display: inline-flex;
         color: $primary;
         font-family: 'modulus';
         color: white;
@@ -44,6 +44,10 @@
                 }
             }
         }
+    }
+    
+    .logo-top-img-shrink {
+        display: flex;
     }
 }
 

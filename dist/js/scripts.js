@@ -22,7 +22,7 @@
                     {
                         scrollTop: target.offset().top - 72,
                     },
-                    1000,
+                    1500,
                     "easeInOutExpo"
                 );
                 return false;
@@ -46,9 +46,11 @@
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
             $("#logo-top").addClass("navbar-shrink");
+            $("#logo-top-img").addClass("logo-top-img-shrink");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
             $("#logo-top").removeClass("navbar-shrink");
+            $("#logo-top-img").removeClass("logo-top-img-shrink");
         }
     };
     // Collapse now if page is not at top

@@ -10038,7 +10038,7 @@ img::-moz-selection {
   border: 0;
 }
 #mainNav .navbar-brand {
-  display: flex;
+  display: inline-flex;
   color: #0277BD;
   font-family: "modulus";
   color: white;
@@ -10054,6 +10054,9 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #0277BD;
+}
+#mainNav .logo-top-img-shrink {
+  display: flex;
 }
 
 @media (min-width: 992px) {
@@ -10103,7 +10106,7 @@ header.masthead {
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
