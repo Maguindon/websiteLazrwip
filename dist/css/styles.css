@@ -362,8 +362,8 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   line-height: 1.2;
 }
 
@@ -9970,7 +9970,7 @@ p {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "nunito";
+  font-family: "raleway";
   margin-bottom: 4rem;
 }
 
@@ -10003,9 +10003,9 @@ img::-moz-selection {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family: "nunito";
+  font-family: "raleway";
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .btn-social {
@@ -10030,7 +10030,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: "nunito";
+  font-family: "raleway";
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
@@ -10047,7 +10047,7 @@ img::-moz-selection {
   height: 2rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "nunito";
+  font-family: "raleway";
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
@@ -10116,13 +10116,13 @@ header.masthead .masthead-heading {
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 5rem;
-  font-family: "nunito";
+  font-family: "raleway";
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
   margin-bottom: 50px;
-  font-family: "nunito";
+  font-family: "raleway";
 }
 
 @media (min-width: 768px) {
@@ -10178,13 +10178,13 @@ header.masthead .masthead-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family: "nunito";
+  font-family: "raleway";
 }
 
 .portfolio-modal .modal-dialog {
@@ -10203,7 +10203,7 @@ header.masthead .masthead-subheading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family: "nunito";
+  font-family: "raleway";
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
@@ -10236,6 +10236,25 @@ header.masthead .masthead-subheading {
 
 #hdiw {
   margin-top: 25px;
+}
+
+#titleIcon {
+  color: #0277BD;
+}
+
+#blueIcons {
+  color: #0277BD;
+}
+
+#blueSubheading {
+  color: #01579B;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.steps {
+  color: #01579B;
 }
 
 .timeline {
@@ -10413,11 +10432,21 @@ header.masthead .masthead-subheading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 0.5rem solid rgba(0, 0, 0, 0.7);
 }
 .team-member h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.map {
+  margin: 3rem;
+  text-align: center;
+}
+
+#map {
+  border: 0.5rem solid rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
 }
 
 #contact {
@@ -10463,23 +10492,23 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: "nunito";
-  font-weight: 500;
+  font-family: "raleway";
+  font-weight: 800;
   color: #ced4da;
 }
 
@@ -10488,5 +10517,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 20px;
   text-align: center;
   font-size: 0.8rem;
-  font-family: "nunito";
+  font-family: "raleway";
 }

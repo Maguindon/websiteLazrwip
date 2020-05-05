@@ -10,6 +10,26 @@
     margin-top: 25px;
 }
 
+#titleIcon {
+    color: $primary;
+}
+
+#blueIcons {
+    color: $primary;
+}
+
+
+#blueSubheading {
+    color: $blue900;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.steps {
+    color: $blue900;
+}
+
 .timeline {
     background-image: url(./src/assets/img/about/1.jpg);
     position: relative;
