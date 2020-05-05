@@ -52,7 +52,7 @@ html(lang='en')
         header.masthead
             .container
                 .masthead-heading.text-uppercase Most advanced logistics platform
-                .masthead-subheading.text-uppercase 
+                .masthead-subheading.text-uppercase We make it easy
                 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.justify-content-center.d-md-table.mx-auto(id='mainButton' href='#services') Tell Me More
 
         // Services
@@ -73,7 +73,7 @@ html(lang='en')
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fad.fa-train.fa-stack-1x.fa-inverse
+                            i.fas.fa-wave-triangle.fa-stack-1x.fa-inverse
                         h4.my-3 Inter-modal
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
@@ -177,33 +177,33 @@ html(lang='en')
 
         // About = HOW DOES IT WORK ?
         section#about.page-section
-            .container
+            .container(id='timelineContainer')
                 .text-center
-                    h2.section-heading.text-uppercase how does it work?
-                    h3.section-subheading.text-muted.text-justify *TEXT TO BE REVIEWED* Fulfillment looks and feels complicated, but ShipMonk makes it easy. We created a step-by-step illustration to show you just how easy it can be.
-                                                    |  You focus on marketing and selling your products – we’ll handle the rest. Through our custom API
-                                                    | integrations, our software will sync directly with your online shopping cart to automatically import orders.
-                                                    | From there we’ll pick, pack, and ship each order without hesitation or delay. The best part is that our
-                                                    | process is customizable and completely scalable, so no matter how fast you grow, you’re guaranteed to get
-                                                    | the same great service for every single order.
+                    h2.section-heading.text-uppercase(id='hdiw') how does it work?
+                    br
+                    br
+                    p.text-muted.text-justify shipping merchandise can be complex and long.  There is a lot to know, after all people study years to become a logistician.  A simple error can cost you and your company a lot because the cargo isn't where it should be, when it should be.  Also, there are many other speed-bumps you will hit such as freight classes, customs documentation, insurance or even zip codes.  Our platform makes this process easy, quick and fun.  Avoid this mess that you used to spend hours on and handle your freight booking in seconds.  Once this is taken care of, let our awesome command center provide the feeling of control you wish you had now.  You will know where your merchandise is, be provided with useful data and improve further your logistics operations.  Start shipping like a pro now and spend time on what matters, the reason your company exists, its very own operations. 
+                    h6.section-subheading the step-by-step illustration below explains how it works. 
+                    br
+                    br
                 ul.timeline
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 2009-2011
-                                h4.subheading Our Humble Beginnings
+                                h6(class='steps') step 1
+                                h4.subheading You build your awesome product
                             .timeline-body
-                                p.text-muted
+                                p.text-muted.text-justify
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 March 2011
-                                h4.subheading An Agency is Born
+                                h6(class='steps') step 2
+                                h4.subheading Log-in to your lazr account
                             .timeline-body
                                 p.text-muted
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
@@ -212,8 +212,8 @@ html(lang='en')
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 December 2012
-                                h4.subheading Transition to Full Service
+                                h6(class='steps') step 3
+                                h4.subheading Get prices
                             .timeline-body
                                 p.text-muted
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
@@ -222,11 +222,32 @@ html(lang='en')
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 July 2014
-                                h4.subheading Phase Two Expansion
+                                h6(class='steps') step 4
+                                h4.subheading Select desired option & book!
                             .timeline-body
                                 p.text-muted
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    li
+                        .timeline-image
+                            img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
+                        .timeline-panel
+                            .timeline-heading
+                                h6(class='steps') step 5
+                                h4.subheading Documentation
+                            .timeline-body
+                                p.text-muted
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    li.timeline-inverted
+                        .timeline-image
+                            img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
+                        .timeline-panel
+                            .timeline-heading
+                                h6(class='steps') step 6
+                                h4.subheading Follow transport in your dashboards
+                            .timeline-body
+                                p.text-muted
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    
                     li.timeline-inverted
                         .timeline-image
                             h4

@@ -1,4 +1,15 @@
 // Styling for the timeline section
+#timelineContainer {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+#hdiw {
+    margin-top: 25px;
+}
+
 .timeline {
     background-image: url(./src/assets/img/about/1.jpg);
     position: relative;
