@@ -10143,6 +10143,10 @@ header.masthead .masthead-subheading {
     margin-bottom: 4rem;
   }
 }
+#brport {
+  color: black;
+}
+
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
@@ -10459,12 +10463,15 @@ header.masthead .masthead-subheading {
   background-color: #212529;
 }
 
-.map {
-  padding: 10px;
-}
-
 .textmap {
   padding: 0px 100px;
+}
+
+#hrbottom {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid white;
 }
 
 section#contact {
