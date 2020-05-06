@@ -116,6 +116,14 @@
             margin-bottom: 0;
         }
     }
+    li {
+        transition: all 0.5s ease-in-out;
+    }
+    li:hover {
+        transform: scale(1.25);
+    }
+
+
     .timeline-heading {
         h4 {
             margin-top: 0;

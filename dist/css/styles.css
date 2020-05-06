@@ -10346,6 +10346,12 @@ header.masthead .masthead-subheading {
 .timeline > li:last-child {
   margin-bottom: 0;
 }
+.timeline li {
+  transition: all 0.5s ease-in-out;
+}
+.timeline li:hover {
+  transform: scale(1.25);
+}
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
