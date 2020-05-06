@@ -1,16 +1,21 @@
 // Styling for the contact section
 #contact {
     height: 80vh;
+    color: white;
 }
 
 #clientSection {
-    height: 10vh;
+    height: 12vh;
     background-color: #212529;
 }
 
-// #contactus {
-//     margin-top: 150px;
-// }
+.map {
+    padding: 10px;
+}
+
+.textmap {
+    padding: 0px 100px;
+}
 
 section#contact {
     background-color: $gray-900;

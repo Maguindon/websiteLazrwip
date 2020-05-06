@@ -10104,7 +10104,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -10432,7 +10432,7 @@ header.masthead .masthead-subheading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.7);
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
   margin-top: 1.5rem;
@@ -10445,17 +10445,26 @@ header.masthead .masthead-subheading {
 }
 
 #map {
-  border: 0.5rem solid rgba(0, 0, 0, 0.7);
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
 #contact {
   height: 80vh;
+  color: white;
 }
 
 #clientSection {
-  height: 10vh;
+  height: 12vh;
   background-color: #212529;
+}
+
+.map {
+  padding: 10px;
+}
+
+.textmap {
+  padding: 0px 100px;
 }
 
 section#contact {

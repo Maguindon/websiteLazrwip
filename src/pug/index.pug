@@ -43,23 +43,23 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Services
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Platform
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') About
+                            a.nav-link.js-scroll-trigger(href='#team') Why Lazr?
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#team') Team
+                            a.nav-link.js-scroll-trigger(href='#about') How it works
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-heading.text-uppercase Most advanced logistics platform
+                .masthead-heading.text-uppercase Most advanced logistics platform. Period.
                 .masthead-subheading Ship - quote - tracking -documentation - KPI
                 .masthead-subheading We make it easy
                 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.justify-content-center.d-md-table.mx-auto(id='mainButton' href='#services') Tell Me More
 
         // Services
-        section#services.page-section
+        section#services.page-section.bg-light
             .container
                 .text-center
                     h2.section-heading.text-uppercase Services
@@ -114,8 +114,8 @@ html(lang='en')
         section#portfolio.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Platform
+                    h3.section-subheading.text-muted Our platform is beautiful and easy to use.  Filled with tools, you will become a master-logistician instantly. 
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
@@ -178,6 +178,32 @@ html(lang='en')
                                 .portfolio-caption-heading Actionnable items
                                 .portfolio-caption-subheading.text-muted Never miss a beat
 
+                // Team
+        section#team.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase What makes lazr truly awesome
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                .row
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/Downward-Trend1.png', alt='')
+                            h4 Shipping discounts
+                            p.text-muted Lead Designer
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/2.png', alt='')
+                            h4 Software
+                            p.text-muted Lead Marketer
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/support.png', alt='')
+                            h4 customer support
+                            p.text-muted Lead Developer
+            
+
+
+
         // About = HOW DOES IT WORK ?
         section#about.page-section
             .container(id='timelineContainer')
@@ -210,14 +236,14 @@ html(lang='en')
 
                     li.timeline-inverted
                         .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='')
+                            img.rounded-circle.img-fluid(src='assets/img/about/2.png', alt='')
                         .timeline-panel
                             .timeline-heading
                                 h6.text-muted(class='steps') step 2
                                 h4.subheading Log-in to your lazr account
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                p.text-muted.text-justify
+                                    | You can log in to your account from anywhere, on your computer, phone or tablet.  
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
@@ -226,8 +252,8 @@ html(lang='en')
                                 h6.text-muted(class='steps') step 3
                                 h4.subheading Get prices
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                p.text-muted.text-justify
+                                    | Go to the ''get prices'' tab, enter your shipment info. Bam, just like that you scanned the market and got the best deal.  Now that all options are layed-out in front of you, you can easily select the best service-type to suit your needs. 
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
@@ -236,8 +262,8 @@ html(lang='en')
                                 h6.text-muted(class='steps') step 4
                                 h4.subheading Select desired option & book!
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                p.text-muted.text-justify
+                                    |  Should your shipment be critical, select the quickest transit-time.  Should you require special-care, select one of our standard partners and they will handle with care. Your concern is cost-effectiveness, no problem et got that as well, the cheapest option is right up there!  Finally, for all sopecialized needs, go with our unique custom quote option and logistics specialist from our partnered 3PL's will send you a custom route very soon.
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
@@ -246,18 +272,18 @@ html(lang='en')
                                 h6.text-muted(class='steps') step 5
                                 h4.subheading Documentation
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                p.text-muted.text-justify
+                                    | Preparing documentation in order to ship merchandise takes time and is boring. Nobody likes that.  The good news is you will never need to fill out a bill of lading ever again with Lazr.  You can download  it from the order and you can upload any other documentation you need within the order for easy access.
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
                                 h6.text-muted(class='steps') step 6
-                                h4.subheading Follow transport in your dashboards
+                                h4.subheading Truck on the way!
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                p.text-muted.text-justify
+                                    | Once a shipment is processed in Lazr, driver is on they way!  You can access all your shipments information from your dashboard.  You will also have all the information you may need to manage your over the road logistics from there! 
                     
                     li.timeline-inverted
                         .timeline-image
@@ -268,57 +294,7 @@ html(lang='en')
                                 br
                                 | Story!
 
-        // Team
-        section#team.page-section.bg-light
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                .row
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='')
-                            h4 Kay Garland
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='')
-                            h4 Larry Parker
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='')
-                            h4 Diana Petersen
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-            .row    
 
-                .col-lg-3 
-                .col-lg-6
-                        .map
-                            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
-                            width="400" height="400" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
-                            .col-lg-8.mx-auto.text-center
-                            p.large.text-muted.center
-                            | Built with love in Blainville, Qc 
-                .col-lg-3
 
 
         // Clients
@@ -346,7 +322,7 @@ html(lang='en')
                     br
                     br
                     h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Looking forward to talking to you!
+                    h3.section-subheading.text-muted Looking forward to talking with you!
                 form#contactForm(name='sentMessage', novalidate='novalidate')
                     .row.align-items-stretch.mb-5
                         .col-md-6
@@ -366,6 +342,29 @@ html(lang='en')
                     .text-center
                             #success
                             button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
+            .row    
+
+                .col-sm-3
+                .col-lg-3
+                        .textmap
+                            .col-lg-8.mx-auto.text-center
+                                p.large.text-muted.center
+                                | info@lazr.io
+                                a.btn.btn-dark.btn-social.mx-2(class='social' href='#!')
+                                    i.fab.fa-twitter
+                                a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
+                                    i.fab.fa-facebook-f
+                                a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
+                                    i.fab.fa-linkedin-in
+
+                .col-lg-3
+                        .map
+                            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
+                            width="300" height="300" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
+                            .col-lg-8.mx-auto.text-center
+                            p.large.text-muted.center
+                            | Developped with love in Blainville, Qc
+                .col-sm-3
 
         // Footer
         footer.footer.py-4
