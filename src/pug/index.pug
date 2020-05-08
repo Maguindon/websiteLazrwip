@@ -53,10 +53,9 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-heading.text-uppercase Most advanced logistics platform. Period.
-                .masthead-subheading Ship - quote - tracking -documentation - KPI
-                .masthead-subheading We make it easy
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.justify-content-center.d-md-table.mx-auto(id='mainButton' href='#services') Tell Me More
+                .masthead-heading.text-uppercase.mx-auto(id='mainTitle') Most advanced logistics platform. Period.
+                .masthead-subheading.text-uppercase.mx-auto(id='mainTitleSub') Ship - quote - tracking - documentation - KPI
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.mx-auto(id='mainButton' href='#services') Tell Me More
 
         // Services
         section#services.page-section.bg-light
@@ -180,10 +179,36 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Actionnable items
                                 .portfolio-caption-subheading.text-muted Never miss a beat
-                br
-                br
-                br
-                br
+                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/totalcontrol.png', alt='shipment-list')
+                            .portfolio-caption
+                                .portfolio-caption-heading shipment and quotes list
+                                .portfolio-caption-subheading.text-muted total control
+                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/addressbook.png', alt='addressbook')
+                            .portfolio-caption
+                                .portfolio-caption-heading Address Book
+                                .portfolio-caption-subheading.text-muted Eliminate errors
+                    .col-lg-4.col-sm-6
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/actionnable.png', alt='actionnable')
+                            .portfolio-caption
+                                .portfolio-caption-heading Actionnable items
+                                .portfolio-caption-subheading.text-muted Never miss a beat
                 hr
 
                 // Team
@@ -286,7 +311,7 @@ html(lang='en')
                                     | Preparing documentation in order to ship merchandise takes time and is boring. Nobody likes that.  The good news is you will never need to fill out a bill of lading ever again with Lazr.  You can download  it from the order and you can upload any other documentation you need within the order for easy access.
                     li.timeline-inverted
                         .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
+                            img.rounded-circle.img-fluid(src='assets/img/about/truck.png', alt='truck')
                         .timeline-panel
                             .timeline-heading
                                 h6.text-muted(class='steps') step 6

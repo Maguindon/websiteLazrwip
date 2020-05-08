@@ -1,7 +1,16 @@
 // Styling for the masthead
 .masthead {
     height: 100vh;
+    position: relative;
 }
+
+// #mainButton {
+//     position:relative;
+//     left:20%;
+//     right:20%;
+//     bottom:5%;
+//     top:60%;
+// }
 
 header.masthead {
     padding-top: 6rem + 4.5rem;
@@ -37,7 +46,7 @@ header.masthead {
         padding-bottom: 12.5rem;
         .masthead-subheading {
             font-size: 2.25rem;
-            font-style: italic;
+            // font-style: italic;
             line-height: 2.25rem;
             margin-bottom: 2rem;
         }

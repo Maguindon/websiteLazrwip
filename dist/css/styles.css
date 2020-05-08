@@ -10097,6 +10097,7 @@ img::-moz-selection {
 }
 .masthead {
   height: 100vh;
+  position: relative;
 }
 
 header.masthead {
@@ -10132,7 +10133,6 @@ header.masthead .masthead-subheading {
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
@@ -10147,6 +10147,9 @@ header.masthead .masthead-subheading {
   color: black;
 }
 
+#portfolio {
+  min-height: 95vh;
+}
 #portfolio .portfolio-item {
   max-width: 25rem;
   margin-left: auto;
@@ -10350,7 +10353,7 @@ header.masthead .masthead-subheading {
   transition: all 0.5s ease-in-out;
 }
 .timeline li:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
 }
 .timeline .timeline-heading h4 {
   margin-top: 0;
