@@ -10100,6 +10100,10 @@ img::-moz-selection {
   position: relative;
 }
 
+.mainButton {
+  position: relative;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
