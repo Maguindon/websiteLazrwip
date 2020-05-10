@@ -62,7 +62,7 @@ html(lang='en')
                 .col-md-4
                     a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.mx-auto(class='mainButton' href='#contact') Open Account
                 .col-md-2
-                
+
         // Services
         section#services.page-section.bg-light
             .container
@@ -76,21 +76,21 @@ html(lang='en')
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fad.fa-truck.fa-stack-1x.fa-inverse
                         h4.my-3 Over the road
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Our pricing engine is simply unique. You will get instant pricing from all major carriers, that is a feat in itself.  Lazr pushes this perk further by offering the offer of thousands of partner-carriers and 3PL's in the mix.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-wave-triangle.fa-stack-1x.fa-inverse
                         h4.my-3 Inter-modal
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fad.fa-user-headset.fa-stack-1x.fa-inverse
                         h4.my-3 Custom Logistics
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                 .row.text-center
                     .col-md-4
@@ -98,21 +98,21 @@ html(lang='en')
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fad.fa-space-station-moon.fa-stack-1x.fa-inverse
                         h4.my-3 Specialized cargo
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fad.fa-user-chart.fa-stack-1x.fa-inverse
                         h4.my-3 Data management
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fad.fa-file-import.fa-stack-1x.fa-inverse
                         h4.my-3 Documentation
-                        p.text-muted
+                        p.text-muted.text-justify
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
                 br
                 br
@@ -124,7 +124,7 @@ html(lang='en')
                 .text-center
                     h2.section-heading.text-uppercase Platform
                     h3.section-subheading.text-muted Our platform is beautiful and easy to use.  Filled with tools, you will become a master-logistician instantly. 
-                .row
+                .row.portfolioLines
                     .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
@@ -155,6 +155,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Automated-tracking
                                 .portfolio-caption-subheading.text-muted locate your stuff
+                .row.portfolioLines                
                     .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
@@ -185,6 +186,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Actionnable items
                                 .portfolio-caption-subheading.text-muted Never miss a beat
+                .row.portfolioLines
                     .col-lg-4.col-sm-6.mb-4.mb-lg-0
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
@@ -338,15 +340,19 @@ html(lang='en')
             .container
                 .row
                     .col-md-3.col-sm-6.my-3
+                        p.text-muted.text-justify 500 Million automated pricing items
                         a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/envato.jpg', alt='')
+                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/img_0032.jpg', alt='' width='100px')
                     .col-md-3.col-sm-6.my-3
+                        p.text-muted.text-justify Average saving for new users = 21%
                         a(href='#!')
                             img.img-fluid.d-block.mx-auto(src='assets/img/logos/designmodo.jpg', alt='')
                     .col-md-3.col-sm-6.my-3
+                        p.text-muted.text-justify Best in class customer service
                         a(href='#!')
                             img.img-fluid.d-block.mx-auto(src='assets/img/logos/themeforest.jpg', alt='')
                     .col-md-3.col-sm-6.my-3
+                        p.text-muted.text-justify Get pricing from over 100+ partners
                         a(href='#!')
                             img.img-fluid.d-block.mx-auto(src='assets/img/logos/creative-market.jpg', alt='')
 
@@ -354,11 +360,8 @@ html(lang='en')
         section#contact.page-section
             .container
                 .text-center(id='contactus')
-                    br
-                    br
-                    br
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Looking forward to talking with you!
+                    h2.section-heading.text-uppercase Contact Us + Open Account
+                    h3.section-subheading of us will contact you asap
                 form#contactForm(name='sentMessage', novalidate='novalidate')
                     .row.align-items-stretch.mb-5
                         .col-md-6
@@ -381,10 +384,9 @@ html(lang='en')
                 hr(id='hrbottom')            
             .row    
 
-                .col-sm-3
-                .col-lg-3
-                        .textmap
-                            .col-lg-8.mx-auto.text-center
+                .col-sm-1
+                .col-lg-5.mx-auto.text-center
+                                
                                 p.large.text-muted.center
                                 | info@lazr.io
                                 a.btn.btn-dark.btn-social.mx-2(class='social' href='#!')
@@ -394,14 +396,14 @@ html(lang='en')
                                 a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
                                     i.fab.fa-linkedin-in
 
-                .col-lg-3
+                .col-lg-5
                         .map
                             iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
                             width="300" height="300" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
                             .col-lg-8.mx-auto.text-center
                             p.large.text-muted.center
                             | Developped with love in Blainville, Qc
-                .col-sm-3
+                .col-sm-1
 
         // Footer
         footer.footer.py-4

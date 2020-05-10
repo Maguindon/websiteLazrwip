@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -10005,7 +10005,7 @@ img::-moz-selection {
   padding: 1.25rem 2.5rem;
   font-family: "raleway";
   font-size: 1.125rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .btn-social {
@@ -10050,7 +10050,7 @@ img::-moz-selection {
   font-family: "raleway";
   font-size: 0.95rem;
   color: #fff;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.1925em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #0277BD;
@@ -10102,6 +10102,7 @@ img::-moz-selection {
 
 .mainButton {
   position: relative;
+  margin-top: 10vh;
 }
 
 header.masthead {
@@ -10116,7 +10117,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-heading {
-  margin-top: 30%;
+  margin-top: 20vh;
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -10147,8 +10148,16 @@ header.masthead .masthead-subheading {
     margin-bottom: 4rem;
   }
 }
+#portfolio {
+  background-image: url("../assets/img/img_0037.png");
+}
+
 #brport {
   color: black;
+}
+
+.portfolioLines {
+  height: 20vh;
 }
 
 #portfolio {
@@ -10190,7 +10199,7 @@ header.masthead .masthead-subheading {
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
@@ -10236,6 +10245,10 @@ header.masthead .masthead-subheading {
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+#about {
+  background-image: url("../assets/img/img_0036.png");
 }
 
 #timelineContainer {
@@ -10522,22 +10535,22 @@ section#contact form#contactForm .form-control:focus {
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
   font-family: "raleway";
-  font-weight: 800;
+  font-weight: 600;
   color: #ced4da;
 }
 
