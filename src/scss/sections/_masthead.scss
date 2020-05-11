@@ -1,13 +1,12 @@
 // Styling for the masthead
 .masthead {
     height: 100vh;
-    position: relative;
+    display: flex;
 }
 
-
-.mainButton {
-    position:relative;
-    margin-top: 10vh;
+.btn-primary {
+    margin-top: 1.5rem;
+    width: 40vh;
 }
 
 header.masthead {
@@ -23,7 +22,7 @@ header.masthead {
     background-size: cover;
     
     .masthead-heading {
-        margin-top: 20vh;
+        // margin-top: 45vh;  
         font-size: 3.25rem;
         font-weight: 700;
         line-height: 3.25rem;
@@ -54,5 +53,17 @@ header.masthead {
             line-height: 4.5rem;
             margin-bottom: 4rem;
         }
+    }
+    .titleMain {
+        height: 20vh;
+        margin: 5vh 0vh 5vh;
+    }
+    .buttonsMain {
+        position:relative;
+        height: 10vh;
+        margin-top: 5vh;
+    }
+    .mainButton {
+        height: 4.5rem;
     }
 }

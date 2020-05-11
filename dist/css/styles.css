@@ -10097,12 +10097,12 @@ img::-moz-selection {
 }
 .masthead {
   height: 100vh;
-  position: relative;
+  display: flex;
 }
 
-.mainButton {
-  position: relative;
-  margin-top: 10vh;
+.btn-primary {
+  margin-top: 1.5rem;
+  width: 40vh;
 }
 
 header.masthead {
@@ -10117,7 +10117,6 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-heading {
-  margin-top: 20vh;
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
@@ -10147,11 +10146,22 @@ header.masthead .masthead-subheading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
-}
-#portfolio {
-  background-image: url("../assets/img/img_0037.png");
-}
 
+  .titleMain {
+    height: 20vh;
+    margin: 5vh 0vh 5vh;
+  }
+
+  .buttonsMain {
+    position: relative;
+    height: 10vh;
+    margin-top: 5vh;
+  }
+
+  .mainButton {
+    height: 4.5rem;
+  }
+}
 #brport {
   color: black;
 }
@@ -10245,10 +10255,6 @@ header.masthead .masthead-subheading {
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
-}
-
-#about {
-  background-image: url("../assets/img/img_0036.png");
 }
 
 #timelineContainer {
@@ -10475,8 +10481,8 @@ header.masthead .masthead-subheading {
 }
 
 #map {
+  width: 100vw;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
 }
 
 #contact {

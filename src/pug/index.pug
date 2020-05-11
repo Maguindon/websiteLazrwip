@@ -53,15 +53,12 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-heading.text-uppercase.mx-auto(id='mainTitle') Most advanced logistics platform. Period.
-                .masthead-subheading.text-uppercase.mx-auto(id='mainTitleSub') Ship - quote - tracking - documentation - KPI
-            .row
-                .col-md-2
-                .col-md-4     
-                    a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.mx-auto(class='mainButton' href='#services') Tell Me More
-                .col-md-4
-                    a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.mx-auto(class='mainButton' href='#contact') Open Account
-                .col-md-2
+                .masthead-heading.text-uppercase It's Nice To Meet You
+                .masthead-subheading Welcome To Our Studio!
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.py-3(href='#services') Tell Me More
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.py-3(href='#contact') Get started now
+
+
 
         // Services
         section#services.page-section.bg-light
@@ -356,7 +353,9 @@ html(lang='en')
                         a(href='#!')
                             img.img-fluid.d-block.mx-auto(src='assets/img/logos/creative-market.jpg', alt='')
 
-        // Contact
+                    div(style='clear: both')
+        // Contact            
+
         section#contact.page-section
             .container
                 .text-center(id='contactus')
@@ -381,29 +380,17 @@ html(lang='en')
                     .text-center
                             #success
                             button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
-                hr(id='hrbottom')            
-            .row    
+                hr.py-2(id='hrbottom')     
+            .row
+                .col-lg-12.text-center.py-4 
+                    
+                    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
+                    width="300" height="300" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
+                        .col-lg-8.mx-auto.text-center
+                        p.large.text-muted.center
+                    | Developped with love in Blainville, Qc
+                div(style='clear: both')
 
-                .col-sm-1
-                .col-lg-5.mx-auto.text-center
-                                
-                                p.large.text-muted.center
-                                | info@lazr.io
-                                a.btn.btn-dark.btn-social.mx-2(class='social' href='#!')
-                                    i.fab.fa-twitter
-                                a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
-                                    i.fab.fa-facebook-f
-                                a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
-                                    i.fab.fa-linkedin-in
-
-                .col-lg-5
-                        .map
-                            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
-                            width="300" height="300" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
-                            .col-lg-8.mx-auto.text-center
-                            p.large.text-muted.center
-                            | Developped with love in Blainville, Qc
-                .col-sm-1
 
         // Footer
         footer.footer.py-4
