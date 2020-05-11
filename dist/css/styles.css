@@ -10101,8 +10101,8 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  margin-top: 1.5rem;
   width: 40vh;
+  margin: 1rem;
 }
 
 header.masthead {
@@ -10126,7 +10126,7 @@ header.masthead .masthead-heading {
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 10rem;
   font-family: "raleway";
 }
 
