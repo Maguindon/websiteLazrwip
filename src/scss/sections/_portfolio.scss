@@ -28,7 +28,7 @@
                 align-items: center;
                 justify-content: center;
                 opacity: 0;
-                transition: opacity ease-in-out 0.25s;
+                transition: opacity ease-in-out 1s;
                 .portfolio-hover-content {
                     font-size: 1.25rem;
                     color: white;
@@ -36,7 +36,7 @@
             }
             &:hover {
                 .portfolio-hover {
-                    opacity: 1;
+                    opacity: 0.8;
                 }
             }
         }
@@ -51,7 +51,7 @@
                 margin-bottom: 0;
             }
             .portfolio-caption-subheading {
-                font-style: italic;
+                // font-style: italic;
                 font-family: $subheadings-font-family;
             }
         }

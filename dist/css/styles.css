@@ -10197,14 +10197,14 @@ header.masthead .masthead-subheading {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity ease-in-out 0.25s;
+  transition: opacity ease-in-out 1s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
@@ -10218,7 +10218,6 @@ header.masthead .masthead-subheading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
   font-family: "raleway";
 }
 
