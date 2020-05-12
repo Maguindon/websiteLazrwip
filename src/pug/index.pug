@@ -55,6 +55,7 @@ html(lang='en')
             .container
                 .masthead-heading.text-uppercase Ecosystem in movement
                 .masthead-subheading quote - ship - track - paperwork - kpi - support  
+
                 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.py-3(href='#services') Tell Me More
                 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger.py-3(href='#contact') Get started now
 
@@ -116,7 +117,7 @@ html(lang='en')
                 hr
 
         // Portfolio Grid
-        section#portfolio.page-section.bg-light
+        section#portfolio.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Platform
@@ -127,7 +128,7 @@ html(lang='en')
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/dashboards.png', alt='Dashboards')
                             .portfolio-caption
                                 .portfolio-caption-heading Powerful Dashboards
@@ -137,7 +138,7 @@ html(lang='en')
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/team.png', alt='team')
                             .portfolio-caption
                                 .portfolio-caption-heading Team based
@@ -147,69 +148,69 @@ html(lang='en')
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/tracking.png', alt='tracking')
                             .portfolio-caption
                                 .portfolio-caption-heading Automated-tracking
                                 .portfolio-caption-subheading.text-muted locate your stuff
                 .row.portfolioLines                
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/totalcontrol.png', alt='shipment-list')
                             .portfolio-caption
                                 .portfolio-caption-heading shipment and quotes list
                                 .portfolio-caption-subheading.text-muted total control
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/addressbook.png', alt='addressbook')
                             .portfolio-caption
                                 .portfolio-caption-heading Address Book
                                 .portfolio-caption-subheading.text-muted Eliminate errors
-                    .col-lg-4.col-sm-6
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/actionnable.png', alt='actionnable')
                             .portfolio-caption
                                 .portfolio-caption-heading Actionnable items
                                 .portfolio-caption-subheading.text-muted Never miss a beat
                 .row.portfolioLines
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/totalcontrol.png', alt='shipment-list')
                             .portfolio-caption
                                 .portfolio-caption-heading shipment and quotes list
                                 .portfolio-caption-subheading.text-muted total control
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/addressbook.png', alt='addressbook')
                             .portfolio-caption
                                 .portfolio-caption-heading Address Book
                                 .portfolio-caption-subheading.text-muted Eliminate errors
-                    .col-lg-4.col-sm-6
+                    .col-lg-4.col-sm-6.mb-4
                         .portfolio-item
                             a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
                                 .portfolio-hover
                                     .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
+                                        i.fad.fa-raygun.fa-3x
                                 img.img-fluid(src='assets/img/portfolio/actionnable.png', alt='actionnable')
                             .portfolio-caption
                                 .portfolio-caption-heading Actionnable items
@@ -331,30 +332,12 @@ html(lang='en')
                                 i.fad.fa-portal-exit.fa-stack-1x.fa-inverse
 
 
-
-        // Clients
-        section.py-5(id="clientSection")
-            .container
-                .row
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/envato.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/designmodo.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/themeforest.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/creative-market.jpg', alt='')
-        // Contact            
-
+        // Contact
         section#contact.page-section
             .container
-                .text-center(id='contactus')
-                    h2.section-heading.text-uppercase Contact Us + Open Account
-                    h3.section-subheading One of us will contact you asap
+                .text-center
+                    h2.section-heading.text-uppercase Contact Us
+                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
                 form#contactForm(name='sentMessage', novalidate='novalidate')
                     .row.align-items-stretch.mb-5
                         .col-md-6
@@ -374,34 +357,41 @@ html(lang='en')
                     .text-center
                             #success
                             button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
-                hr.py-2(id='hrbottom')     
-            .row
-                .col-lg-12.text-center.py-4 
-                    
-                    iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89195.27599432427!2d-73.92725842250921!3d45.683900029889614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8d7d3b70c861b%3A0xfabe67a302e9227d!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1588623247968!5m2!1sfr!2sca" 
-                    width="300" height="300" frameborder="2" style="border:5;" allowfullscreen="true" aria-hidden="false" tabindex="0" id='map')
-                        .col-lg-8.mx-auto.text-center
-                        p.large.text-muted.center
-                    | Developped with love in Blainville, Qc
-                div(style='clear: both')
-
+   
+        // Clients
+        section.py-5(id='clientSection')
+            .container(id='clientForms')
+                .row
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/envato.jpg', alt='')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/designmodo.jpg', alt='')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/themeforest.jpg', alt='')
+                    .col-md-3.col-sm-6.my-3
+                        a(href='#!')
+                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/creative-market.jpg', alt='')
 
         // Footer
         footer.footer.py-4
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-left
-                        | Copyright © Lazr Freight 2020
+                        | Copyright © Your Website 2020
                     .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(class='social' href='#!')
+                        a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
+                        a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(class='social', href='#!')
+                        a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-linkedin-in
                     .col-lg-4.text-lg-right
                         a.mr-3(href='#!') Privacy Policy
-                        a(href='#!') Terms of Use
+                        a(href='#!') Terms of Use  
+
 
         // Portfolio Modals
         // Modal 1

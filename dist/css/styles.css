@@ -10098,11 +10098,16 @@ img::-moz-selection {
 .masthead {
   height: 100vh;
   display: flex;
+  color: white;
 }
 
 .btn-primary {
   width: 40vh;
   margin: 1rem;
+}
+
+#topBR {
+  color: white;
 }
 
 header.masthead {
@@ -10166,8 +10171,8 @@ header.masthead .masthead-subheading {
   color: black;
 }
 
-.portfolioLines {
-  height: 20vh;
+.portfolio-item {
+  margin-bottom: 3rem;
 }
 
 #portfolio {
@@ -10485,13 +10490,11 @@ header.masthead .masthead-subheading {
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 
-#contact {
-  height: 80vh;
-  color: white;
+#clientForms {
+  margin-top: 5rem;
 }
 
 #clientSection {
-  height: 12vh;
   background-color: #212529;
 }
 
