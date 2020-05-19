@@ -10102,8 +10102,11 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  width: 40vh;
-  margin: 1rem;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-items: right;
 }
 
 #topBR {
@@ -10165,6 +10168,7 @@ header.masthead .masthead-subheading {
 
   .mainButton {
     height: 4.5rem;
+    justify-content: flex-end;
   }
 }
 #brport {
@@ -10383,7 +10387,7 @@ header.masthead .masthead-subheading {
   transform: scale(1.2);
 }
 .timeline li:hover .timeline-image {
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   border: 3px solid #0277BD;
 }
 .timeline .timeline-heading h4 {
@@ -10571,4 +10575,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.8rem;
   font-family: "raleway", sans-serif;
+  margin-bottom: 5vh;
 }
